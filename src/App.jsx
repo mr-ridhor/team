@@ -13,6 +13,7 @@ import * as TbIcons from 'react-icons/tb'
 import Wifi from './assets/wifi.png'
 import Close from './assets/close.svg'
 import * as CgIcons from 'react-icons/cg'
+import * as BsIcons from 'react-icons/bs'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -27,6 +28,7 @@ function App() {
         <header className='header'>
           <div className='logo'>
             <span className='rounded-logo bg-light_blue'>
+              <BsIcons.BsFillCreditCard2BackFill className='text-white  crd'/>
             </span>
              <h1 className=' ace font-semibold text-dark_blue'>AceCoin<span className='thin font-light'>Pay</span></h1>
           </div>

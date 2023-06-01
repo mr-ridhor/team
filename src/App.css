@@ -31,6 +31,9 @@
     justify-content: space-between;
     flex-direction: initial;
 }
+.crd{
+    margin: 8px auto;
+}
 .header .logo .rounded-logo{
     height: 2em;
     width: 2em;
